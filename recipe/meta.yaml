@@ -1,5 +1,5 @@
-{% set name = 'clorm' %}
-{% set version = '1.2.0' %}
+{% set name = "clorm" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/potassco/{{ name }}/archive/v{{ version }}.zip
-  sha256: 717864eae43c7d7f92b11dffe1accbd53abccddbfaf81791c1126165dd57a25f
+  sha256: 4ff4be89139be802a710a3bd2c0e987aacfca1a822fcb0b826c0943d26562297
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -31,7 +31,7 @@ test:
     - pip check
 
 about:
-  home:  https://potassco.org/
+  home: https://potassco.org/
   license: MIT
   license_family: MIT
   license_file: LICENSE
