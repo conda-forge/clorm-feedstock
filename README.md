@@ -1,11 +1,11 @@
-About clorm
-===========
+About clorm-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/clorm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://potassco.org/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/clorm-feedstock/blob/main/LICENSE.txt)
 
 Summary: ORM interface for the Clingo ASP Solver
 
