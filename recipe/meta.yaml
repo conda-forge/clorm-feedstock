@@ -1,5 +1,5 @@
 {% set name = "clorm" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/potassco/{{ name }}/archive/v{{ version }}.zip
-  sha256: 7de94017f1e344fddd12b4940aff2f9c8d351b622106691dbf3e1ce18f3ed56b
+  sha256: 8480543e636dbf39530be6232a72b55f254382ceff08dffac2d1a440d0cb41b3
 
 build:
   noarch: python
